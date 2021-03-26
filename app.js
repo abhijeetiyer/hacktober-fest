@@ -1,4 +1,4 @@
- let keys = document.querySelectorAll('.keys');
+let keys = document.querySelectorAll('.keys');
 let input = document.querySelector('.input');
  keys.forEach(function(key){
   key.setAttribute('value',key.textContent);
